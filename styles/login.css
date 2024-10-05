@@ -2,7 +2,22 @@
 
 /* ----------- */
 
+.login-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.logo {
+    width: auto;
+    max-width: 4rem;
+}
 
 
 

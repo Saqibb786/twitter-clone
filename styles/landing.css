@@ -7,7 +7,7 @@
     grid-template: 100fr auto / auto 100fr;
 }
 .banner {
-    height: 100%;
+    height: auto;
     width: auto;
     max-width: 55vw;
     object-fit: cover;
@@ -58,6 +58,7 @@
     border: 1px solid #E4EAED;
     cursor: pointer;
 
+    color: #000;
     font-size: 1.6rem;
     font-weight: 500;
 }
@@ -99,11 +100,10 @@
 
 /*  Media Queries  */ 
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 728px)  {
     .container {
         grid-template: 50fr 50fr auto / auto;
-        justify-items: center;
-        align-items: center;
+        gap:  1rem;
     }
     .content {
         display: flex;
@@ -117,8 +117,6 @@
     .banner {
         max-width: 100%;
     }
-    .footer-list {
-        margin-top: 1rem;
-    }
+
 
 }

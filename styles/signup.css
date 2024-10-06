@@ -22,6 +22,12 @@
     gap: 1rem;
 }
 
+.logo-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .logo {
     width: auto;
@@ -30,7 +36,7 @@
 
 .title {
     /* font-family: Roboto; */
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .subtitle {
@@ -39,6 +45,7 @@
 
 .text {
     font-size: 1.2rem;
+    opacity: 0.6;
 }
 
 .input {
@@ -49,16 +56,22 @@
 }
 
 .dob-container {
-    margin-block: 2rem;
+    margin-bottom: 1rem;
 }
 
 .dropdowns-container {
+    margin-block: 1rem;
     display: flex;
+
     justify-content: space-between;
     align-items: center;
 }
 .dropdown {
-    padding: 1rem 2rem;
+    color: #00000099;
+    padding: 1.5rem 3rem;
+    border: 1px solid #00000033;
+    border-radius: 3px;
+    outline: none;
 }
 
 .btn {
@@ -76,5 +89,23 @@
 /*  Media Queries  */ 
 
 @media screen and (max-width: 768px)  {
-
+    .container {
+        width: 240px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .subtitle {
+        font-size: 1.4rem;
+    }
+    .text {
+        font-size: 1rem;
+    }
+    .dropdown {
+        padding: 0.6rem;
+        max-width: 6rem;
+    }
+    .dob-container {
+        margin-bottom: .6rem;
+    }
 }

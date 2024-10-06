@@ -15,7 +15,6 @@
 }
 .container {
     width: 300px;
-    /* max-width: 30dvw; */
 
     display: flex;
     flex-direction: column;

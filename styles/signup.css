@@ -2,9 +2,76 @@
 
 /* ----------- */
 
+.signup-form {
+    font-family: 'Segoe UI';
+    height: 100vh;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
+}
+.container {
+    width: 400px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.logo {
+    width: auto;
+    max-width: 4rem;
+}
+
+.title {
+    /* font-family: Roboto; */
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-weight: 700;
+}
+
+.text {
+    font-size: 1.2rem;
+}
+
+.input {
+    border: 1px solid #E5E5E5;
+    border-radius: .3rem;
+
+    padding: 1rem 2rem;
+}
+
+.dob-container {
+    margin-block: 2rem;
+}
+
+.dropdowns-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown {
+    padding: 1rem 2rem;
+}
+
+.btn {
+    background-color: #1DA1F2;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-weight: 700;
+    border-radius: 5rem;
+    padding:1rem 2rem ;
+}
 
 /*  Media Queries  */ 
 

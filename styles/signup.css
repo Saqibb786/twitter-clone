@@ -35,11 +35,12 @@
 }
 
 .title {
-    /* font-family: Roboto; */
+    margin-block: 1REM;
     font-size: 2.8rem;
 }
 
 .subtitle {
+    font-size: 1.4rem;
     font-weight: 700;
 }
 

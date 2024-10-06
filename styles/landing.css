@@ -100,10 +100,33 @@
 
 /*  Media Queries  */ 
 
+@media screen and (max-width: 1050px)  {
+    .container {
+        gap:  .5rem;
+    }
+
+    .content h1 {
+        font-size: 4rem;    
+        margin-block: 1.5rem;
+    }
+    
+    .content h2{
+        font-size: 1.8rem;    
+        margin-block: 1rem;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+    }
+
+
+}
+
 @media screen and (max-width: 728px)  {
     .container {
-        grid-template: 50fr 50fr auto / auto;
-        gap:  1rem;
+        grid-template: auto 100fr auto / auto;
+        gap:  2rem;
     }
     .content {
         display: flex;
@@ -117,6 +140,9 @@
     .banner {
         max-width: 100%;
     }
-
+    .content h1 {
+        font-size: 3.2rem;    
+        margin-block: 1.2rem;
+    }
 
 }
